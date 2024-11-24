@@ -26,5 +26,5 @@ If the code doesn't work for you, sorry, you get what you pay for, Life's a B---
 All the code here is free to use or abuse however you see fit. Any pre-existing
 owner copyrights MUST be observed.
 
-Finally, there are a lot of older and likely better "offical" examples at https://github.com/pyqt/examples/tree/_
+Finally, there are a lot of older and likely better "offical" examples at (https://github.com/pyqt/examples/tree/_)[https://github.com/pyqt/examples/tree/_]
 however, many of these are PyQt5, etc.
