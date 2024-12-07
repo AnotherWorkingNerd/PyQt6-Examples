@@ -61,11 +61,12 @@ class ExampleDialog(QDialog):
         
         self.setAttribute(Qt.WidgetAttribute.WA_DeleteOnClose)
 
-        dlg_btn = (QDialogButtonBox.StandardButton.Ok)
+        dlg_btn = QDialogButtonBox.StandardButton.Ok
         # Or use the close button
-        # dlg_btn = (QDialogButtonBox.StandardButton.Close)
+        # dlg_btn = QDialogButtonBox.StandardButton.Close
         self.ok_btn = QDialogButtonBox(dlg_btn)
-        self.ok_btn.accepted.connect(self.accept)
+        # self.ok_btn.accepted.connect(self.accept)
+        self.ok_btn.accepted.connect(self.button_clicked)
 
         self.table = QTableWidget(self)
         self.table.setColumnCount(2)
@@ -117,12 +118,9 @@ class ExampleDialog(QDialog):
             self.table.setItem(row, 0, QTableWidgetItem(str(key)))
             self.table.setItem(row, 1, QTableWidgetItem(str(value)))
 
-    def button_clicked(self, btn):
-        role = buttonBox.standardButton(btn)
-        if role == QDialogButtonBox.Ok:
-#            if role == QDialogButtonBox.Close:
-            print('clicked ok')
-            # close dialog box
+    def button_clicked(self):
+        # close dialog box
+        self.close()
 
 class MainWindow(QMainWindow):
     '''
