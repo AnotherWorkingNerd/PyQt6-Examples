@@ -3,7 +3,7 @@
 #
 # This started with the code from https://www.youtube.com/watch?v=8drZhYQSI34
 # and has since been changed and massivly expanded upon.
-# Maybe I got a bit carried away. Just call me Micky. :-D
+# Maybe I got a bit carried away. Just call me Mickey. :-D
 
 import sys
 from PyQt6.QtCore import Qt
