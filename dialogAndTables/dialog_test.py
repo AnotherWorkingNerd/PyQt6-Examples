@@ -212,9 +212,7 @@ class MainWindow(QMainWindow):
         #     }
         #     """
         # Any Trek fans out there? LOL
-        
-        # do I really need a status tip... 
-             
+                    
         toolbar.addAction(tbb1)
         toolbar.addAction(tbb2)
         toolbar.addAction(tbb3)
