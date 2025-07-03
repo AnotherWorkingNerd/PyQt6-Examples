@@ -2,8 +2,8 @@
 # These are PyQt6 mouse events
 #
 # This started with the code from https://www.youtube.com/watch?v=8drZhYQSI34
-# and has since been changed and massivly expanded upon.
-# Maybe I got a bit carried away. Just call me Mickey. :-D
+# and has since been changed and massively expanded upon.
+# Maybe I got a bit carried away. :-D
 
 import sys
 from PyQt6.QtCore import Qt
@@ -32,8 +32,8 @@ class MainWindow(QMainWindow):
         print('mouse event: single click')
         mousePos = f" Pos: {event.pos().x()}, {event.pos().y()}"
         # OK a button was pressed. Which one?
-        # since thses events happen pretty fast and be hard to see
-        # they are also printed
+        # since these events happen pretty fast and are hard to see
+        # they are also set to STDOUT
         if event.button() == Qt.MouseButton.LeftButton:
             self.label.setText("Left mouse button pressed." + mousePos)
             print("Left mouse button pressed." + mousePos)
@@ -73,7 +73,7 @@ class MainWindow(QMainWindow):
         # Detect mouse wheel rolling and direction.
         self.label.setText("Wheel Event - see stdout.")
 
-        # Since many mice have 2 scroll wheels, usually one on the top
+        # Many mice have 2 scroll wheels, usually one on the top
         # of mouse for vertical movement and a second wheel, usually on
         # the side of the mouse for horizontal movement.
         # Of course the configuration and location of the wheel can change

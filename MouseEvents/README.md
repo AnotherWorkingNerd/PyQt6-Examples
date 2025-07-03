@@ -2,7 +2,7 @@
 ## Mouse event PyQt6 examples
 
 ### MouseClick.py
-This is a realy simple script that captures right and left mouse buttons and the position.
+This is a really simple script that captures right and left mouse buttons and the position.
 
 ### MouseEvents.py
 This script covers the major mouse events and will handle the following:
