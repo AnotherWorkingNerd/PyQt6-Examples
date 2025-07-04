@@ -37,6 +37,7 @@ os-agnostic PyQt6 code. I value readability over conciseness for examples.
 One other thing, I'm not Tech Support. This code is provided AS IS.
 If the code doesn't work for you, sorry, you get what you pay for.
 
-Other good examples at:
+There are a few other good examples at:
 - [https://github.com/pythonguis/pythonguis-examples](https://github.com/pythonguis/pythonguis-examples)
 - [https://www.pythonguis.com](https://www.pythonguis.com)
+I'm sure if you use your favorite search engine you will find others.
